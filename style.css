@@ -67,8 +67,8 @@ section {
   color: var(--main-color);
   text-transform: uppercase;
 }
-.box,
-img {
+img,
+i {
   cursor: pointer;
 }
 /* General styles end */
@@ -508,6 +508,7 @@ img {
   border: var(--border);
   margin: 0.3rem;
   border-radius: 50%;
+  box-shadow: inset 1px 1px 10px gray;
 }
 .footer .share a:hover {
   background-color: var(--main-color);
